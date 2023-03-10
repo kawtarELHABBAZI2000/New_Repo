@@ -1,0 +1,27 @@
+[200]
+
+1234
+
+[10]
+La Base de Faits (BF) : qui est l'une des entrées d'un moteur d'inférence. 
+elle contient les connaissances représentant des états considérés comme prouvés ainsi qu'elle est variable au cours de l’exécution et vidée lorsque l’exécution est terminée.
+On trouve aussi la base de règles : qui contient les connaissances expertes qui représentent les raisonnements effectués par un expert.
+
+[12]
+Le moteur d'inférence peut exécuter des règles, suivants différentes méthodes d'invocation a savoir:
+
+[13]
+Commencant par le chainage avant qui part des faits et des règles de la base de connaissances, et tente de s'approcher des faits recherchés par le problème.
+Si la solution est refusée, alors la solution est enregistrée dans la base de faits comme simple résultat et le moteur d'inférence tente d'y appliquer d'autres règles jusqu'à trouver une solution potentielle valide, ou jusqu'à ce qu'il n'y ait plus de règle.
+
+[14]
+Le principe du chaînage arrière est plus compliqué, il s'agit de partir d'une solution et de tenter de remonter la chaîne afin de déterminer les causes d'un fait. 
+On relève alors tous les faits et les données retrouvés. 
+
+[15]
+En ce qui concerne la comparaison entre les deux modes de chainage on a le chaînage avant qui est dirigé par les données
+
+[16]
+Concernant les domaines d'application, ...
+Le diagnostic d’une défaillance suite à un ensemble d’observations.
+maintenant je passe la parole a Ikram afin de discuter le langage Prolog
